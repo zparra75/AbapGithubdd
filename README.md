@@ -11,7 +11,5 @@ Soy un Consultor SAP FI / ABAP Cloud Jr y Contador Pùblico, con disciplina y ap
 📫 Mi Correo lic.dimasdaniel@gmail.com
 
 Connect with me:
-https://www.linkedin.com/in/d-daniel-g-b5096992/ SAPLOGO.jpg
+https://www.linkedin.com/in/d-daniel-g-b5096992/ 
 
-Languages and Tools:
-SAPLOGO.jpg css3 html5 illustrator mysql photoshop postman SAPLOGO.jpg JIRALOGO.jpg
