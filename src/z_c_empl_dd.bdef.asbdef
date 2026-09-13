@@ -1,0 +1,8 @@
+projection;
+
+define behavior for z_c_empl_dd alias Empleado
+{
+  use create;
+  use update;
+  use delete;
+}

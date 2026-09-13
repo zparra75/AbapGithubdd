@@ -1,0 +1,43 @@
+@Metadata.layer: #CORE
+@UI: { headerInfo: { typeName:'Empleado',
+                   typeNamePlural: 'Empleados',
+                   title: {type:#STANDARD,
+                   label: 'Empleados',
+                   value: 'EmployeeName' }
+
+                            }  }
+annotate view z_c_empl_dd with
+{
+  @UI.facet: [{id:'Empleado',
+              purpose: #STANDARD,
+              type: #IDENTIFICATION_REFERENCE,
+              label:'Empleados' }]
+  @UI: { lineItem: [{position: 10, label: 'Número Empleado', importance: #HIGH }] }
+  @UI.identification: [{position: 10, label: 'Número Empleado' }]
+  EmployeeNumber;
+  @UI: { lineItem: [{position: 20, label: 'Nombre Apellido', importance: #HIGH }] }
+  @UI.identification: [{position: 20, label: 'Nombre Apellido' }]
+  EmployeeName;
+  @UI: { lineItem: [{position: 30, label: 'Departamento', importance: #HIGH }] }
+  @UI.identification: [{position: 30, label: 'Departamento' }]
+  EmployeeDepartment;
+  @UI: { lineItem: [{position: 40, label: 'Estado', importance: #HIGH }] }
+  @UI.identification: [{position: 40, label: 'Estado' }]
+  EmployeeStatus;
+  @UI: { lineItem: [{position: 50, label: 'Codigo', importance: #HIGH }] }
+  @UI.identification: [{position: 50, label: 'Codigo' }]
+  JobCode;
+  @UI: { lineItem: [{position: 60, label: 'Titulo', importance: #HIGH }] }
+  @UI.identification: [{position: 60, label: 'Titulo' }]
+  JobTitle;
+  @UI: { lineItem: [{position: 70, label: 'Email', importance: #HIGH }] }
+  @UI.identification: [{position: 70, label: 'Email' }]
+  Email;
+  @UI: { lineItem: [{position: 80, label: 'Fecha Inicio', importance: #HIGH }] }
+  @UI.identification: [{position: 80, label: 'Fecha Inicio' }]
+  StartDate;
+  @UI: { lineItem: [{position: 90, label: 'Fecha Final', importance: #HIGH }] }
+  @UI.identification: [{position: 90, label: 'Fecha Final' }]
+  EndDate;
+
+}

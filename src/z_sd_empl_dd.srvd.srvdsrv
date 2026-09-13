@@ -1,0 +1,4 @@
+@EndUserText.label: 'Empleados - dd'
+define service z_sd_empl_dd {
+  expose z_c_empl_dd as Empleado;
+}

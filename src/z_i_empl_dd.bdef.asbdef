@@ -1,0 +1,14 @@
+managed implementation in class zbp_i_empl_dd unique;
+
+define behavior for z_i_empl_dd alias Empleado
+persistent table zempl_dd_abap
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  field ( readonly, numbering : managed ) e_number;
+  create;
+  update;
+  delete;
+
+}
