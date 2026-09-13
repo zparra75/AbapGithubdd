@@ -1,3 +1,3 @@
 # AbapGithubdd
 
-Repositorio de Codigo Trial ABAP Cloud Consultos SAP FI ABAP Ssr - Contador Publico
+Repositorio de Codigo Trial ABAP Cloud Consultor Dimas Daniel SAP FI ABAP Ssr - Contador Publico
